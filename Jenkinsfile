@@ -2,18 +2,24 @@
         pipeline {
             agent any
             stages {
-                stage("jenkinsfile.stage1"){
+                stage("stage1"){
                     steps{
-                        echo 'jenkinsfile.step1.1'
-                        echo 'jenkinsfile.step1.2'
+                        echo 'step1.1'
+                        echo 'step1.2'
                     }
                 }
 
-                stage("jenkinsfile.stage2"){
+                stage("stage2"){
                     steps{
-                        echo 'jenkinsfile.step2.1'
-                        sh 'cat gagal.txt'
-                        echo 'jenkinsfile.step2.2'
+                        echo 'step2.1'
+                        echo 'step2.2'
+                    }
+                }
+
+                stage("stage3"){
+                    steps{
+                        echo 'step3.1'
+                        echo 'step3.2'
                     }
                 }
             }
