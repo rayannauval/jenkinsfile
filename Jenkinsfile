@@ -12,6 +12,7 @@
                 stage("stage2"){
                     steps{
                         echo 'step2.1'
+                        budi 'cat gagal.txt'
                         echo 'step2.2'
                     }
                 }
