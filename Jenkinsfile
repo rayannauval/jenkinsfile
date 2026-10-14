@@ -2,7 +2,7 @@
         pipeline {
             agent {
                 node {
-                    label "l1 && l2"
+                    label "l1 || l2"
                 }
             }
             stages {
