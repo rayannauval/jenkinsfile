@@ -1,8 +1,8 @@
 
         pipeline {
             agent {
-                nodes {
-                    label "gakada"
+                node {
+                    label "linux && java11"
                 }
             }
             stages {
