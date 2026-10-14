@@ -2,7 +2,7 @@
         pipeline {
             agent {
                 node {
-                    label "budi"
+                    label "l1 && l2"
                 }
             }
             stages {
