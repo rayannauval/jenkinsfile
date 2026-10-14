@@ -2,7 +2,7 @@
         pipeline {
             agent {
                 any {
-                    label "linux && java11 && budi"
+                    label "gakada"
                 }
             }
             stages {
