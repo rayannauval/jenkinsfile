@@ -12,15 +12,8 @@
                 stage("jenkinsfile.stage2"){
                     steps{
                         echo 'jenkinsfile.step2.1'
-                        budi 'cat gagal.txt'
+                        sh 'cat gagal.txt'
                         echo 'jenkinsfile.step2.2'
-                    }
-                }
-
-                stage("jenkinsfile.stage3"){
-                    steps{
-                        echo 'jenkinsfile.step3.1'
-                        echo 'jenkinsfile.step3.2'
                     }
                 }
             }
