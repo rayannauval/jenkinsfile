@@ -12,7 +12,7 @@
                 stage("jenkinsfile.stage2"){
                     steps{
                         echo 'jenkinsfile.step2.1'
-                        sh 'cat gagal.txt'
+                        budi 'cat gagal.txt'
                         echo 'jenkinsfile.step2.2'
                     }
                 }
