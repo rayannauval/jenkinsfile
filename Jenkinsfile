@@ -12,8 +12,8 @@
                                 )
                             ]
                         ){
-                            echo 'rahasia1: $rahasia1'
-                            echo 'rahasia2: $rahasia2'
+                            echo 'rahasia1: '+$rahasia1
+                            echo 'rahasia2: '+$rahasia2
                         }
 
                     }
