@@ -11,7 +11,7 @@
                                     variable:'rahasia1'
                                 ),
                                 string(
-                                    credentialsId: 'secret2',
+                                    credentialsId: 'rahasia2',
                                     variable:'rahasia2'
                                 )
                             ]
