@@ -7,7 +7,7 @@
                         withCredentials(
                             [
                                 string(
-                                    credentialsId: 'secret1',
+                                    credentialsId: 'emailpass1',
                                     variable:'rahasia1'
                                 ),
                                 string(
