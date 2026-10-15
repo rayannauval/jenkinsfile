@@ -5,11 +5,13 @@
                 stage("stage1"){
                     steps{
                         script {
-                            def ok = false
-                            if(ok){
-                                sh "echo benar"
+                            def i = 3
+                            if(i==3){
+                                sh "echo 3"
+                            }elseif(i==2){
+                                sh "echo 2"
                             }else{
-                                sh "echo salah"
+                                sh "echo ELSE"
                             }
                         }
                     }
