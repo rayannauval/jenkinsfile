@@ -4,7 +4,7 @@
             stages {
                 stage("stage1"){
                     steps{
-                        scripta {
+                        script {
                             def ok = true
                             if(ok){
                                 sh "echo benar"
