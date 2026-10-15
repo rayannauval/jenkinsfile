@@ -11,9 +11,10 @@
                                     variable:'rahasia1'
                                 )
                             ]
-                        )
+                        ){
+                            sh 'echo $rahasia1'
+                        }
 
-                        sh 'echo $rahasia1'
                     }
                 }
             }
