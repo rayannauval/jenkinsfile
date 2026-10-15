@@ -17,8 +17,8 @@
                             ]
                         ){
                             echo 'rahasia1: '+rahasia1;
-                            sh 'echo $rahasia1 > ./secret.txt'
-                            sh 'cat ./secret.txt'
+                            sh 'echo $rahasia1 > /home/rayan/Documents/jenkins/pipeline/./secret.txt'
+                            sh 'cat /home/rayan/Documents/jenkins/pipeline/./secret.txt'
                         }
 
                     }
