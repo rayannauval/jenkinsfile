@@ -9,11 +9,14 @@
                                 string(
                                     credentialsId: 'secret1',
                                     variable:'rahasia1'
+                                ),
+                                string(
+                                    credentialsId: 'secret2',
+                                    variable:'rahasia2'
                                 )
                             ]
                         ){
-                            echo 'rahasia1: '+rahasia1
-                            echo 'rahasia2: '+rahasia2
+                            echo 'rahasia1: '+rahasia1;
                         }
 
                     }
