@@ -4,9 +4,12 @@
             stages {
                 stage("stage1"){
                     steps{
-                        sh 'date'
-                        sleep(5)
-                        sh 'date'
+                        scripta {
+                            def ok = true
+                            if(ok){
+                                sh "echo benar"
+                            }
+                        }
                     }
                 }
             }
