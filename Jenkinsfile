@@ -7,7 +7,7 @@
                         withCredentials(
                             [
                                 string(
-                                    credentialsId: 'emailpass1',
+                                    credentialsId: 'secret1',
                                     variable:'rahasia1'
                                 ),
                                 string(
@@ -17,7 +17,7 @@
                             ]
                         ){
                             echo 'rahasia1: '+rahasia1;
-                            sh 'echo "data: $rahasia1" > /home/rayan/Documents/jenkins/pipeline/secret.txt'
+                            sh 'echo "data: $rahasia1 | RAHASIA" > /home/rayan/Documents/jenkins/pipeline/secret.txt'
                             sh 'cat /home/rayan/Documents/jenkins/pipeline/secret.txt'
                         }
 
