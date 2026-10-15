@@ -5,7 +5,7 @@
                 stage("stage1"){
                     steps{
                         script {
-                            def i = 3
+                            def i = 2
                             if(i==3){
                                 sh "echo 3"
                             }else if(i==2){
